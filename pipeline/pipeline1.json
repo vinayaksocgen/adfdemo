@@ -54,7 +54,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "ADLSG2",
+						"referenceName": "ADLSG10",
 						"type": "DatasetReference"
 					}
 				]
