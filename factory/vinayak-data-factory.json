@@ -1,0 +1,9 @@
+{
+	"name": "vinayak-data-factory",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "c1b5b716-82d4-4fa3-ae1d-186fa7f6c7ac",
+		"tenantId": "78afcd51-fc41-404f-b46d-af252f11abd7"
+	}
+}
