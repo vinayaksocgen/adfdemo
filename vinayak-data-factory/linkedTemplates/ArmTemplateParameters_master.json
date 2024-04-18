@@ -14,6 +14,9 @@
 		"AzureSynapseAnalytics1_connectionString": {
 			"value": ""
 		},
+		"vp_dbls_accessToken": {
+			"value": ""
+		},
 		"AzureDataLakeStorage_properties_typeProperties_url": {
 			"value": "https://awrgstudvp.dfs.core.windows.net/"
 		},
@@ -22,6 +25,9 @@
 		},
 		"HttpServer1_properties_typeProperties_url": {
 			"value": "https://raw.githubusercontent.com/djpmsft/adf-ready-demo/master/moviesDB.csv"
+		},
+		"vp_dbls_properties_typeProperties_existingClusterId": {
+			"value": "0417-094010-cjiplb29"
 		},
 		"containerUri": {
 			"value": ""

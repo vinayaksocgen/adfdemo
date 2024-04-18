@@ -19,6 +19,10 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'AzureSynapseAnalytics1'"
 		},
+		"vp_dbls_accessToken": {
+			"type": "secureString",
+			"metadata": "Secure string for 'accessToken' of 'vp_dbls'"
+		},
 		"AzureDataLakeStorage_properties_typeProperties_url": {
 			"type": "string",
 			"defaultValue": "https://awrgstudvp.dfs.core.windows.net/"
@@ -30,6 +34,10 @@
 		"HttpServer1_properties_typeProperties_url": {
 			"type": "string",
 			"defaultValue": "https://raw.githubusercontent.com/djpmsft/adf-ready-demo/master/moviesDB.csv"
+		},
+		"vp_dbls_properties_typeProperties_existingClusterId": {
+			"type": "string",
+			"defaultValue": "0417-094010-cjiplb29"
 		},
 		"containerUri": {
 			"type": "string",
@@ -67,6 +75,9 @@
 					"AzureSynapseAnalytics1_connectionString": {
 						"value": "[parameters('AzureSynapseAnalytics1_connectionString')]"
 					},
+					"vp_dbls_accessToken": {
+						"value": "[parameters('vp_dbls_accessToken')]"
+					},
 					"AzureDataLakeStorage_properties_typeProperties_url": {
 						"value": "[parameters('AzureDataLakeStorage_properties_typeProperties_url')]"
 					},
@@ -75,6 +86,9 @@
 					},
 					"HttpServer1_properties_typeProperties_url": {
 						"value": "[parameters('HttpServer1_properties_typeProperties_url')]"
+					},
+					"vp_dbls_properties_typeProperties_existingClusterId": {
+						"value": "[parameters('vp_dbls_properties_typeProperties_existingClusterId')]"
 					}
 				}
 			},
