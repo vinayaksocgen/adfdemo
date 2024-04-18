@@ -83,6 +83,13 @@
 						"referenceName": "dataflow1",
 						"type": "DataFlowReference"
 					},
+					"staging": {
+						"linkedService": {
+							"referenceName": "AzureDataLakeStorage",
+							"type": "LinkedServiceReference"
+						},
+						"folderPath": "data/dw-staging"
+					},
 					"compute": {
 						"coreCount": 8,
 						"computeType": "General"
