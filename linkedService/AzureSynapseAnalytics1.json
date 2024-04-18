@@ -1,0 +1,12 @@
+{
+	"name": "AzureSynapseAnalytics1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDW",
+		"typeProperties": {
+			"connectionString": "integrated security=False;encrypt=True;connection timeout=30;data source=wrkspcvp.sql.azuresynapse.net;initial catalog=DWD8;user id=vpsqladmin",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDBENUE3MzMyLUY4QTYtNEYzMi1BNEQzLTI1NTUxQTkzQTMwMF9hN2QxYzdiMy1kM2IyLTQ1ZmYtOWM5MC1hOWRjNjYyNTU1Y2QiDQp9"
+		}
+	}
+}
